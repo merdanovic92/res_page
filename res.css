@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.clear {
+    clear:both;
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-size: 2.8rem;
+}
+h2{
+    font-size:3.6rem;
+    padding: 5rem 0rem;
+}
+ul {
+    color:white;
+text-decoration: none;
+font-size: 2.4rem;
+}
+h3{
+    font-size:2.8rem;
+}
+button{
+    font-size:1.8rem;
+}
+nav {
+    background-color: rgb(118, 118, 206);
+    color:white;
+    padding:3rem;
+}
+nav h1 {
+    float: left;
+}
+nav ul{
+    float: right;
+}
+nav li {
+    float:left;
+    margin:0rem 4rem;
+    display: block;
+}
+.hero-section {
+    background-image: url("hand-2-img.jpg");
+    height:80rem;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:white;
+    padding-top:15rem;
+    text-shadow: 3px 3px 10px black;
+}
+.hero-section button {
+    margin-top: 4rem;
+    padding: 1rem 4rem;
+    background: aqua;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+.form-section{
+    text-align: center;
+}
+form{
+
+}
+form input,form label,form textarea{
+    display: block;
+    font-size:2.4rem;
+    width: 50%;
+}
+form input,form textarea{
+    margin:2rem auto;
+}
+form button{
+    margin-bottom: 10rem;
+    margin-top: 4rem;
+    padding: 1rem 4rem;
+    background: aqua;
+    color:white;
+    border:none;
+    cursor:pointer
+}
